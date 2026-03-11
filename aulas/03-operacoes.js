@@ -9,15 +9,16 @@ console.log("----------------");
 let soma = x + y; //declarei uma variável "soma" e somei os valores de x e y
 console.log("A soma de x + y é", soma); //mostrei o valor da soma
 
-//DESAFIO 01 - CRIAR OS OUTROS 3 OPERADORES ARITMÉTICOS
-//    (subtração -) (multiplicação *) (divisão /)
+//DESAFIO 01 - CRIAR OS OUTROS 3 OPERADORES ARITMÉTICOS  (subtração -) (multiplicação *) (divisão /)
 
 //Definindo uma variável para subtração
 let subtracao = x - y; //declarei uma variável "subtração" e somei os valores de x e y
 console.log("A subtração de x - y é", subtracao); //mostrei o valor da soma
 
 //Definindo uma variável para subtração
-let multiplicacao = x * y; //declarei uma variável "multiplicação" e somei os valores de x e y
+let multiplicacao = x * y; 
+
+//Declarei uma variável "multiplicação" e somei os valores de x e y
 console.log("A multiplicação de x * y é", multiplicacao); //mostrei o valor da soma
 
 //Definindo uma variável para subtração
