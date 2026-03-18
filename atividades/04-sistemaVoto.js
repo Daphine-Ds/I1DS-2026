@@ -70,7 +70,7 @@ function vericacao(nota) {
   } else if (nota > 5 && nota < 6.9) {
     frase = "RECUPERAÇÃO!";
   } else {
-    frase = "APROVADO!!";
+    frase = "APROVADO!";
   }
   return frase;
 }
