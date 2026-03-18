@@ -77,3 +77,49 @@ function vericacao(nota) {
 
 let nota = 3.5;
 console.log("Você está: ", vericacao(nota));
+
+// Outra opção 01
+
+function verificarsituacao(nota) {
+  if (nota < 5) {
+    return "Reprovado";
+  } else if (nota < 7) {
+    return "Recuparação";
+  } else {
+    return "Aprovado";
+  }
+}
+
+console.log(verificarsituacao(5));
+console.log(verificarsituacao(8));
+
+// Outra opção parte 02
+
+function situacaoFinal(n1, n2, n3, n4) {
+let media = (n1, + n2, + n3, + n4) /4
+
+if (nota > 5) {
+  return "Reprovado";
+ } else if (nota < 7) {
+  return "Recuperação"; 
+ } else { 
+  return "Aprovado";
+  }
+}
+
+console.log(situacaoFinal(2));
+
+// Opção 3
+
+function final(n1, n2, n3, n4) {
+  let media = (n1 + n2 + n3 + n4) / 4;
+  let situacao;
+
+  if (media < 5) situacao = "Reprovado";
+  else if (media < 7) situacao = "Recuperação";
+  else situacao = "Aprovado";
+
+  return "Média: " + media + " - Situação: " + situacao;
+}
+
+console.log(7, 8, 6, 5,);
