@@ -17,14 +17,9 @@
 
 // 1.Criando variáveis com "var" (var nome_variavel = <valor>;)
 var nome = "Daphine";
-
-//Criando variável de idade e atribuindo uma idade para ela
 var idade = 16;
-
-//Criando variável de cidade e atribuindo uma cidade pra ela
 var cidade = "Jaú";
 
-//Demonstrando no console várias informações
 console.log(
   "Meu nome é",
   nome,
@@ -59,15 +54,15 @@ resultado = x / y;
 console.log("A divisão é", resultado);
 console.log("---------------------------------------------------");
 
-// 3.Calcule a área de um triangulo
+// 3.Calcule a área de um retângulo
 let base = 10;
-let hTriangulo = 5;
+let hRetangulo = 5;
 
-let area = (base * hTriangulo) / 2;
+let area = (base * hRetangulo);
 
-console.log("A base do triângulo é:", base);
-console.log("A altura do triângulo é:", hTriangulo);
-console.log("Então a área do triângulo é:", area);
+console.log("A base do retângulo é:", base);
+console.log("A altura do retângulo é:", hRetangulo);
+console.log("Então a área do retângulo é:", area);
 console.log("---------------------------------------------------");
 
 // 4.Calcule o volume do paralelepípedo
@@ -154,5 +149,9 @@ let horas = 2
 let minutos = (horas * 60)
 let segundos = (horas * 3600)
 
+ console.log("Horas:", horas,);
+ console.log("Minutos:", minutos);
+console.log("Segundos:", segundos);
+console.log("---------------------------------------------------");
 
 
