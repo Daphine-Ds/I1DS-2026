@@ -145,7 +145,7 @@ console.log("O valor de delta é:", delta)
 console.log("---------------------------------------------------");
 
 // 10.Dado o valor em hora converta pra minutos e segundos 
-let horas = 2
+let horas = 3
 let minutos = (horas * 60)
 let segundos = (horas * 3600)
 
